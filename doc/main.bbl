@@ -1,0 +1,136 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[Adam e Marchetti 1999]{adam1999}
+\abntrefinfo{Adam e Marchetti}{ADAM; MARCHETTI}{1999}
+{ADAM, E.~J.; MARCHETTI, J.~L. Dynamic simulation of large boilers with natural
+  recirculation.
+\emph{Computers and Chemical Engineering}, v.~23, p. 1031--1040, 1999.}
+
+\bibitem[{\r{A}}str{\"{o}}m e Bell 2000]{astrom}
+\abntrefinfo{{\r{A}}str{\"{o}}m e Bell}{{\r{A}}STR{\"{O}}M; BELL}{2000}
+{{\r{A}}STR{\"{O}}M, K.~J.; BELL, R.~D. Drum-boiler dynamics.
+\emph{Automatica}, v.~36, p. 363--378, 2000.}
+
+\bibitem[Brantly 1942]{brantly1942steam}
+\abntrefinfo{Brantly}{BRANTLY}{1942}
+{BRANTLY, J. \emph{Steam boiler and pressure control}. Google Patents, 1942.
+US Patent 2,291,872.
+Dispon{\'\i}vel em: \url{https://www.google.com/patents/US2291872}.}
+
+\bibitem[Dantas 2010]{dantasusp}
+\abntrefinfo{Dantas}{DANTAS}{2010}
+{DANTAS, D.~N.
+\emph{Uso da biomassa da cana-de-açúcar para geração de energia elétrica:
+  análise energética, exergética e ambiental de sistemas de cogeração em
+  sucroalcooleiras do interior paulista}.
+Disserta\c{c}\~{a}o (Mestrado) --- Escola de Engenharia de São Carlos,
+  Universidade de São Paulo, São Carlos, 2010.}
+
+\bibitem[Feldbaum 2002]{feldbaum2002method}
+\abntrefinfo{Feldbaum}{FELDBAUM}{2002}
+{FELDBAUM, B. \emph{Method and system for access control of a message queue}.
+  Google Patents, 2002.
+US Patent 6,446,206.
+Dispon{\'\i}vel em: \url{https://www.google.com/patents/US6446206}.}
+
+\bibitem[Garland e Hand 1989]{garland2}
+\abntrefinfo{Garland e Hand}{GARLAND; HAND}{1989}
+{GARLAND, W.~J.; HAND, B.~J. Simple functions for the fast approximation of
+  light water thermodynamic properties.
+\emph{Nuclear Engineering and Design}, v.~113, p. 21--34, 1989.}
+
+\bibitem[Garland e Hoskins 1988]{garland}
+\abntrefinfo{Garland e Hoskins}{GARLAND; HOSKINS}{1988}
+{GARLAND, W.~J.; HOSKINS, J.~D. Approximate functions for the fast calculation
+  of light-water properties at saturation.
+\emph{International Jornal of Multiphase Flow}, v.~14, n.~3, p. 333--348,
+  1988.}
+
+\bibitem[Habib et al. 2010]{habib}
+\abntrefinfo{Habib et al.}{HABIB et al.}{2010}
+{HABIB, M.~A. et al. A thermal nonlinear dynamic model for water tube drum
+  boilers.
+\emph{International Journal of Energy Research}, v.~34, p. 20--35, 2010.}
+
+\bibitem[Hintjens 2013]{zmq}
+\abntrefinfo{Hintjens}{HINTJENS}{2013}
+{HINTJENS, P. \emph{ZeroMQ: Messaging for Many Applications}. 1. ed.
+  California: O'Reilly Media, 2013.}
+
+\bibitem[Instrument Society of America 1992]{isa-1984}
+\abntrefinfo{ISA}{ISA}{1992}
+{INSTRUMENT SOCIETY OF AMERICA. \emph{{ANSI/ISA}-S5.1}: Instrumentation symbols
+  and identification.
+North Carolina, 1992. 72~p.}
+
+\bibitem[Kwatny e Berg 1993]{kwatny}
+\abntrefinfo{Kwatny e Berg}{KWATNY; BERG}{1993}
+{KWATNY, H.~W.; BERG, J. Drum level regulation at all loads.
+\emph{Preprints IFAC 12th world congress}, v.~3, p. 405--408, 1993.}
+
+\bibitem[Leme 2005]{leme2005}
+\abntrefinfo{Leme}{LEME}{2005}
+{LEME, R.~M.
+\emph{Estimativa das emissões de poluentes atmosféricos e uso de água na
+  produção de eletricidade com biomassa de cana-de-açúcar}.
+Disserta\c{c}\~{a}o (Mestrado) --- Faculdade de Engenharia Mecânica,
+  Universidade Estadual de Campinas, Campinas, 2005.}
+
+\bibitem[Liu, Lara-Rosano e Chan 2003]{controle-pressao}
+\abntrefinfo{Liu, Lara-Rosano e Chan}{LIU; LARA-ROSANO; CHAN}{2003}
+{LIU, X.-J.; LARA-ROSANO, F.; CHAN, C.~W. Neurofuzzy network modelling and
+  control of steam pressure in 300 mw steam-boiler system.
+\emph{Engineering Applications of Artifical Intelligence}, v.~16, p. 431--440,
+  2003.}
+
+\bibitem[Marques 2012]{ufrj}
+\abntrefinfo{Marques}{MARQUES}{2012}
+{MARQUES, F. de A.~P.
+\emph{Modelagem e controle de nível do tubulão de uma caldeira de vapor
+  aquatubular de uma refinaria de petróleo}.
+Disserta\c{c}\~{a}o (Mestrado) --- Programa de Pós-Graduação de Engenharia,
+  Universidade Federal do Rio de Janeiro, Rio de Janeiro, abr. 2012.}
+
+\bibitem[Martin 1996]{troubleshootplc}
+\abntrefinfo{Martin}{MARTIN}{1996}
+{MARTIN, V.~D. Troubleshooting plc problems.
+\emph{Electronics Now}, v.~67, p.~33, 1996.}
+
+\bibitem[Robertson 1901]{boilers}
+\abntrefinfo{Robertson}{ROBERTSON}{1901}
+{ROBERTSON, L.~S. \emph{Water-tube boilers}. 1. ed. New York: D. Van Nostrand
+  Company, 1901.}
+
+\bibitem[Wikipedia 2014]{wikicaldeiras}
+\abntrefinfo{Wikipedia}{WIKIPEDIA}{2014a}
+{WIKIPEDIA. \emph{Caldeira}. 2014.
+Dispon{\'\i}vel em:
+  \url{http://pt.wikipedia.org/w/index.php?title=Caldeira&oldid=40684435}.
+  Acesso em: 17 dez. 2014.}
+
+\bibitem[Wikipedia 2014]{wikiwatertube}
+\abntrefinfo{Wikipedia}{WIKIPEDIA}{2014b}
+{WIKIPEDIA. \emph{Water-tube boiler}. 2014.
+Dispon{\'\i}vel em:
+  \url{http://en.wikipedia.org/w/index.php?title=Water-tube\_boiler&oldid=638507184}.
+  Acesso em: 18 dez. 2014.}
+
+\bibitem[Wikipedia 2015]{wikiipc}
+\abntrefinfo{Wikipedia}{WIKIPEDIA}{2015}
+{WIKIPEDIA. \emph{Inter-process communication}. 2015.
+Dispon{\'\i}vel em:
+  \url{http://en.wikipedia.org/w/index.php?title=Inter-process\_communication&oldid=645037874}.
+  Acesso em: 12 fev. 2015.}
+
+\bibitem[Yuan e Liu 2012]{yuan}
+\abntrefinfo{Yuan e Liu}{YUAN; LIU}{2012}
+{YUAN, G.; LIU, J. The design for the boiler drum level system based on immune
+  control.
+\emph{Journal of Computers}, v.~7, n.~3, p. 749--754, 2012.}
+
+\end{thebibliography}

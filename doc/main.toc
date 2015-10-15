@@ -1,0 +1,108 @@
+\changetocdepth {4}
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\changetocdepth {3}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\bfseries \MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{13}{chapter.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\bfseries \MakeTextUppercase {Desenvolvimento}}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Revis\IeC {\~a}o Bibliogr\IeC {\'a}fica}{15}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Caldeiras aquatubulates}{15}{subsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.1}Funcionamento}{15}{subsubsection.2.1.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Modelo matem\IeC {\'a}tico}{17}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Controle de n\IeC {\'\i }vel}{27}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Controle de press\IeC {\~a}o}{29}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Trocas de mensagens entre processos}{30}{subsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.5.1}Padr\IeC {\~o}es de mensagens}{30}{subsubsection.2.1.5.1}
+\contentsline {paragraph}{\numberline {2.1.5.1.1}Padr\IeC {\~a}o request-reply}{30}{paragraph.2.1.5.1.1}
+\contentsline {paragraph}{\numberline {2.1.5.1.2}Padr\IeC {\~a}o push-pull}{31}{paragraph.2.1.5.1.2}
+\contentsline {section}{\numberline {2.2}Metodologia}{31}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Propriedades termodin\IeC {\^a}micas da \IeC {\'a}gua}{31}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Par\IeC {\^a}metros de simula\IeC {\c c}\IeC {\~a}o}{32}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Gravidade ($g$)}{33}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Entalpia da \IeC {\'a}gua de entrada ($h_f$)}{34}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}Volume total de \IeC {\'a}gua na caldeira ($V_{wt}$)}{35}{subsubsection.2.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Estimativas da caldeira de \citeonline {astrom}}{35}{subsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Vaz\IeC {\~a}o de entrada ($ q_f $)}{36}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.2}Entalpia da \IeC {\'a}gua de entrada ($h_f$)}{37}{subsubsection.2.2.3.2}
+\contentsline {subsubsection}{\numberline {2.2.3.3}\IeC {\'A}rea dos tubos descendentes ($A_{dc}$)}{37}{subsubsection.2.2.3.3}
+\contentsline {subsubsection}{\numberline {2.2.3.4}Volume de vapor no tubul\IeC {\~a}o para situa\IeC {\c c}\IeC {\~a}o hipot\IeC {\'e}tica sem condensa\IeC {\c c}\IeC {\~a}o ($V_{sd}^0)$}{38}{subsubsection.2.2.3.4}
+\contentsline {subsubsection}{\numberline {2.2.3.5}Volume total da caldeira ($V_t$)}{38}{subsubsection.2.2.3.5}
+\contentsline {subsubsection}{\numberline {2.2.3.6}N\IeC {\'\i }vel da \IeC {\'a}gua no ponto de opera\IeC {\c c}\IeC {\~a}o ($l_o$)}{38}{subsubsection.2.2.3.6}
+\contentsline {subsection}{\numberline {2.2.4}V\IeC {\'a}lvula de vaz\IeC {\~a}o de \IeC {\'a}gua}{39}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Din\IeC {\^a}mica da gera\IeC {\c c}\IeC {\~a}o de calor}{39}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Sistemas de controle}{40}{subsection.2.2.6}
+\contentsline {subsubsection}{\numberline {2.2.6.1}Controle de press\IeC {\~a}o}{40}{subsubsection.2.2.6.1}
+\contentsline {subsubsection}{\numberline {2.2.6.2}Controle de n\IeC {\'\i }vel}{40}{subsubsection.2.2.6.2}
+\contentsline {subsection}{\numberline {2.2.7}Arquitetura de software}{41}{subsection.2.2.7}
+\contentsline {section}{\numberline {2.3}Resultados}{43}{section.2.3}
+\contentsline {section}{\numberline {2.4}Discuss\IeC {\~a}o}{45}{section.2.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\bfseries \MakeTextUppercase {Conclus\IeC {\~o}es}}{47}{chapter.3}
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Refer\^encias}{48}{section*.12}
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANEXO \space }
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\bfseries \MakeTextUppercase {M\IeC {\'o}dulo das propriedades t\IeC {\'e}rmicas da \IeC {\'a}gua}}{50}{appendix.anexochapback.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\bfseries \MakeTextUppercase {Classe Interface cliente}}{59}{appendix.anexochapback.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {C}\bfseries \MakeTextUppercase {Classe Interface servidor}}{60}{appendix.anexochapback.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {D}\bfseries \MakeTextUppercase {Ponto de entrada do simulador}}{62}{appendix.anexochapback.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {E}\bfseries \MakeTextUppercase {Configura\IeC {\c c}\IeC {\~o}es do simulador}}{66}{appendix.anexochapback.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {F}\bfseries \MakeTextUppercase {M\IeC {\'o}dulo principal do simulador}}{68}{appendix.anexochapback.6}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {G}\bfseries \MakeTextUppercase {Thread de loop de simula\IeC {\c c}\IeC {\~a}o}}{77}{appendix.anexochapback.7}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {H}\bfseries \MakeTextUppercase {Classe do modelo da v\IeC {\'a}lvula da \IeC {\'a}gua de entrada}}{79}{appendix.anexochapback.8}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {I}\bfseries \MakeTextUppercase {Classe do modelo dos queimadores}}{81}{appendix.anexochapback.9}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {J}\bfseries \MakeTextUppercase {Ponto de entrada da aplica\IeC {\c c}\IeC {\~a}o de controle}}{82}{appendix.anexochapback.10}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {K}\bfseries \MakeTextUppercase {M\IeC {\'o}dulo de controles gen\IeC {\'e}ricos}}{83}{appendix.anexochapback.11}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {L}\bfseries \MakeTextUppercase {Classe de controle de n\IeC {\'\i }vel}}{87}{appendix.anexochapback.12}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {M}\bfseries \MakeTextUppercase {Classe de controle de press\IeC {\~a}o}}{89}{appendix.anexochapback.13}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {N}\bfseries \MakeTextUppercase {M\IeC {\'o}dulo visualiza\IeC {\c c}\IeC {\~a}o}}{91}{appendix.anexochapback.14}
+\vspace {\cftbeforechapterskip }

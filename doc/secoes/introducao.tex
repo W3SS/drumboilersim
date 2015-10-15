@@ -1,0 +1,57 @@
+O uso de caldeiras aquatubulares é amplamente difundido, sendo comum
+em plantas termelétricas ou para geração de energia elétrica em geral
+\cite{wikicaldeiras}. No Brasil, o aumento do interesse em fontes
+alternativas de energia causado pela crise energética de 2001 resultou
+em um aumento da utilização de biomassa como forma de diversificação
+da matriz energética do país \cite{dantasusp}. Essa utilização causou
+o aumento significativo da utilização de caldeiras de geração de vapor
+na indústria sucroalcooleira, onde o resíduo da produção de etanol a
+partir da cana de açúcar é usado em sistemas de cogeração de energia
+elétrica capazes de suprir toda a demanda eletromecânica e térmica das
+usinas e destilarias, operando em Ciclo Rankine com turbinas a vapor
+de contrapressão \cite{leme2005}.
+
+Estudos mostram que o nível de água na caldeira é uma das variáveis
+mais importantes para o funcionamento correto e seguro de uma
+caldeira: em 1995, foi constatado que 30\% das paradas emergenciais de
+plantas nucleares do tipo PWR (reator de água pressurizada) na França
+foram causadas por uma variação do nível de água do
+tubulão \apud{kwatny}{astrom}, mostrando que o controle dessa variável
+é extremamente importante.
+
+Um nível de água elevado dificulta a separação entre líquido e vapor,
+aumentando a umidade contida no vapor e diminuindo sua qualidade,
+podendo chegar a danificar as pás da turbina. Já o baixo nível de água
+pode fazer com que a água restante evapore rapidamente em operação com
+carga elevada. Essa evaporação rápida pode causar o superaquecimento
+da caldeira, podendo queimá-la ou resultar em uma
+explosão \cite{yuan}. O superaquecimento da caldeira também aumenta a
+necessidade de paradas da planta, além de aumentar os riscos à
+segurança \cite{habib}.
+
+O desenvolvimento de sistemas de controle de nível em caldeiras
+aquatubulares já foi amplamente estudado, como pode ser visto
+em \citeonline{ufrj} e \citeonline{yuan}.  A simulação de uma caldeira
+também já foi exaustivamente discutida em outros trabalhos,
+como \citeonline{astrom}, \citeonline{adam1999} e \citeonline{habib},
+com resultados próximos aos reais \cite{astrom}, porém especificações
+detalhadas para implementação de um simulador não estão disponíveis
+nesses trabalhos, o que dificulta a utilização prática dos resultados
+encontrados.
+
+A partir de modelos dinâmicos do comportamento do nível da caldeira, é
+possível projetar um sistema de controle de nível e validá-lo através
+do teste em simuladores, como feito em \citeonline{ufrj}. Após o
+projeto, um CLP deve ser programado com a lógica desenvolvida e então
+inserido na planta. Um possível defeito no CLP só será constatado
+durante sua implantação, quando a planta (ou parte dela) está
+desligada. Nesses casos, encontrar o problema com o CLP pode ser mais
+difícil, pois o técnico estará sob estresse \cite{troubleshootplc},
+além de atrasar o reinicio da planta e portanto gerar prejuízos.
+
+Esse trabalho tem como objetivo a implementação de um simulador do
+comportamento dinâmico de uma caldeira aquatubular. Espera-se produzir
+um sistema de simulação versátil e de fácil configuração. Esse sistema
+deverá ter uma interface de comunicação simples, possibilitando a
+criação de drivers para diferentes tipos de controladores e sistemas
+supervisórios.

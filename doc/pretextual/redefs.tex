@@ -1,0 +1,174 @@
+%% Redefinições do modelo da ABNT/padrões do abntex2.
+%
+%% ==================================================================
+%% ==================================================================
+%% NÃO EDITAR ESSE ARQUIVO
+%% ==================================================================
+%% ==================================================================
+%
+
+
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\ABNTEXchapterfontsize}{\bfseries\fontsize{12pt}{1em}}
+\renewcommand{\ABNTEXsectionfontsize}{\bfseries\fontsize{12pt}{1em}}
+\renewcommand{\ABNTEXsubsectionfontsize}{\bfseries\fontsize{12pt}{1em}}
+\renewcommand{\ABNTEXsubsubsectionfontsize}{\bfseries\fontsize{12pt}{1em}}
+\renewcommand{\normalsize}{\fontsize{12pt}{1em}}
+\renewcommand{\arraystretch}{1.2}
+
+\renewcommand{\legend}{\fontsize{11pt}{1em}}
+
+
+% Secao Primaria (Chapter): Caixa alta, Negrito, tamanho 12
+\makeatletter
+\settocpreprocessor{chapter}{%
+\let\tempf@rtoc\f@rtoc%
+\def\f@rtoc{%
+\texorpdfstring{\bfseries\MakeTextUppercase{\tempf@rtoc}}{\tempf@rtoc}}%
+}
+\makeatother
+
+% Margens
+\setlrmarginsandblock{3cm}{2cm}{*} % externa / interna
+\setulmarginsandblock{3cm}{2cm}{*} % superior / inferior
+\checkandfixthelayout%
+
+% Recuo do paragrafo
+\setlength{\parindent}{1.25cm} % normativo citatanto o valor de 1,25 qto 1,5cm
+% sem espaco entre os paragrafos
+\setlength{\parskip}{0cm}
+
+% Espacamentos nos titulos:
+% chapter
+\setlength{\beforechapskip}{-\onelineskip} %com 0 nao funcionou
+\setlength{\afterchapskip}{\onelineskip} % antes do titulo de capitulo
+%\setlength\beforechapskip{-18pt}
+
+% section
+\setbeforesecskip{\onelineskip}
+\setaftersecskip{\onelineskip}
+
+% subsection
+\setbeforesubsecskip{\onelineskip}
+\setaftersubsecskip{\onelineskip}
+
+% subsubsection
+\setbeforesubsubsecskip{\onelineskip}
+\setaftersubsubsecskip{\onelineskip}
+
+% subsubsubsection
+\setbeforeparaskip{\onelineskip}
+\setafterparaskip{\onelineskip}
+
+% espaçamento duplo
+\linespread{2}
+
+
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{ }
+% 	\ifcase #1 %
+% 		Nenhuma citação no texto.%
+% 	\or
+% 		Citado na página #2.%
+% 	\else
+% 		Citado #1 vezes nas páginas #2.%
+% 	\fi}%
+% ---
+
+\renewcommand*{\imprimircapa}{
+  \begin{capa}
+    \center
+    \includegraphics[width=.62in]{img/template/logo.png}
+    
+    \ABNTEXchapterfont Universidade Federal de Uberlândia
+
+    \ABNTEXchapterfont Faculdade de Engenharia Elétrica
+
+    \vfill
+    
+    {\ABNTEXchapterfont\fontsize{16pt}{1em}\textbf{\imprimirautor}}
+
+    \vfill
+    {\ABNTEXchapterfont\fontsize{14pt}{1em}\textbf{\imprimirtitulo}}
+    \vfill
+    \vspace*{1cm}
+
+    \ABNTEXchapterfont\imprimirlocal%
+    
+    \ABNTEXchapterfont\imprimirdata%
+  \end{capa}
+}
+
+\renewcommand{\folhaderostocontent}{
+  \begin{center}
+    
+    \vspace*{4.5cm}
+    
+    {\ABNTEXchapterfont\fontsize{16pt}{1em}\textbf{\imprimirautor}}
+
+    \vfill
+    {\ABNTEXchapterfont\fontsize{14pt}{1em}\textbf{\imprimirtitulo}}
+    
+    \hspace{.45\textwidth}
+    \begin{minipage}{.5\textwidth}
+    \SingleSpacing%
+    \ABNTEXchapterfont\imprimirpreambulo%
+
+    \vspace*{.5cm}
+    Orientador: \imprimirorientador%
+
+    \assinatura{Assinatura do Orientador}
+    \end{minipage}%
+    \vfill 
+    
+    \ABNTEXchapterfont\imprimirlocal%
+    
+    \ABNTEXchapterfont\imprimirdata%
+
+  \end{center}
+  
+}
+
+
+% Desenho de duagramas de blocos para sistemas de controle
+\tikzstyle{block} = [draw, rectangle, 
+    minimum height=3em, minimum width=6em]
+\tikzstyle{sum} = [draw, circle, node distance=1cm]
+\tikzstyle{input} = [coordinate]
+\tikzstyle{output} = [coordinate]
+\tikzstyle{pinstyle} = [pin edge={to-,thin,black}]
+
+
+
+% Estilos de codigos fonte
+\newcommand{\Py}[1]{
+  \lstinputlisting[
+	inputencoding=latin1,
+	language=Python,                % choose the language of the code
+	basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+	% numbers=left,                   % where to put the line-numbers
+	% numberstyle=\footnotesize,      % the size of the fonts that are used for the line-numbers
+	% stepnumber=1,                   % the step between two line-numbers. If it is 1 each line will be numbered
+	% numbersep=5pt,                  % how far the line-numbers are from the code
+	backgroundcolor=\color{white},  % choose the background color. You must add \usepackage{color}
+	showspaces=false,               % show spaces adding particular underscores
+	showstringspaces=false,         % underline spaces within strings
+	showtabs=false,                 % show tabs within strings adding particular underscores
+	frame=single,           % adds a frame around the code
+	tabsize=4,          % sets default tabsize to 2 spaces
+	captionpos=b,           % sets the caption-position to bottom
+	breaklines=true,        % sets automatic line breaking
+	breakatwhitespace=false,    % sets if automatic breaks should only happen at whitespace
+        mathescape=false,
+        texcl=false
+%	escapeinside={\%*}{*)},          % if you want to add a comment within your code
+  ]{\detokenize{srcs/py/#1.py}}
+}
+
